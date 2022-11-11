@@ -1,7 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 import PageDirector from './components/router/router.js';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Route } from 'react-router-dom';
+import MainScreen from './components/all-screens/main/MainScreen';
+import Fish from './components/all-screens/Fish/FishAPI';
 
 function App() {
   return (
@@ -10,6 +12,7 @@ function App() {
 
         <PageDirector/>
 
+        
       </BrowserRouter>
     </div>
   );
