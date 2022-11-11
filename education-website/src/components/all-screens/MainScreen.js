@@ -1,4 +1,6 @@
 import React from "react";
+import NasaPage from "./NasaAPI";
+
 
 const MainScreen = () => (
     <div>
@@ -6,4 +8,6 @@ const MainScreen = () => (
     </div>
 )
 
-export default MainScreen;
+export default MainScreen
+
+
