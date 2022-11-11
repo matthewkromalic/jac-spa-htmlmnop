@@ -8,7 +8,7 @@ const MainScreen = () => (
         <div className="header">
             <h1>Temp header</h1>
             <ul className="links">
-                <NavLink to='/species'>Learn about Fish</NavLink>
+                <NavLink to='/species'>Countries</NavLink>
             </ul>
         </div>
 

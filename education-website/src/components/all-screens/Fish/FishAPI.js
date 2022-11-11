@@ -1,19 +1,17 @@
 import React, { useEffect, useState } from "react";
-import { params, useParams } from "react-router-dom"
 import './fish.css'
 import { NavLink } from "react-router-dom";
 
 const Fish = () => {
-    const [fish, setFish] = useState(null);
+    const [countries, setCountries] = useState(null);
     const [loading, setLoading] = useState(true);
-    const params = useParams();
 
     useEffect(() => {
-        fetch(`https://www.fishwatch.gov/api/species/${params.species}`)
+        fetch('https://restcountries.com/v2/all')
         .then((response) => response.json())
-        .then((json) => setFish(json));
+        .then((json) => setCountries(json));
 
-        if(fish){
+        if(countries){
             setLoading(false);
         }
     })
@@ -24,11 +22,11 @@ const Fish = () => {
             </div>
 
             <div>
-                <h5>Species</h5>
+                <h5>Countries</h5>
                 {
                 (loading ? <h3>Loading...</h3> :
-                fish.map(species =>
-                <a href={`species/${species}`}><p>{species.species}</p></a>)
+                countries.map(country =>
+                <a href={`https://restcountries.com/v2/name/${country.name}`}><p>{country.name}</p></a>)
                 )
                 }
             </div>
