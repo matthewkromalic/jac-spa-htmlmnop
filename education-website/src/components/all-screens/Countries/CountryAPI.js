@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import './fish.css'
+import './country.css'
 import { NavLink } from "react-router-dom";
 
-const Fish = () => {
+const Countries = () => {
     const [countries, setCountries] = useState(null);
     const [loading, setLoading] = useState(true);
 
@@ -34,4 +34,4 @@ const Fish = () => {
 
     )
 }
-export default Fish;
+export default Countries;

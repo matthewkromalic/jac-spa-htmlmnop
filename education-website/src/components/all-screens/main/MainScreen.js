@@ -1,22 +1,13 @@
 import React from "react";
-import Fish from "../Fish/FishAPI";
-import './main.css'
-import { NavLink } from "react-router-dom";
+import NasaPage from "../NasaAPI";
+
 
 const MainScreen = () => (
     <div>
-        <div className="header">
-            <h1>Temp header</h1>
-            <ul className="links">
-                <NavLink to='/species'>Countries</NavLink>
-            </ul>
-        </div>
-
-        <div>
-            <h2>Main Screen</h2> 
-        </div>
-       
+        <h2>Main Screen</h2>
     </div>
 )
 
-export default MainScreen;
+export default MainScreen
+
+
