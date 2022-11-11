@@ -4,7 +4,7 @@ import NasaPage from "../NasaAPI";
 
 const MainScreen = () => (
     <div>
-        <h2>Main Screen</h2>
+        <h2>Mystery Educator</h2>
     </div>
 )
 
