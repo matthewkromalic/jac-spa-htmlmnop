@@ -1,0 +1,19 @@
+
+.links{
+    display: flex;
+}
+.links a{
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 20px;
+    min-width: 75px;
+    padding: 2px;
+}
+.links a:hover{
+    background-color: aquamarine;
+    transition: .5s;
+}

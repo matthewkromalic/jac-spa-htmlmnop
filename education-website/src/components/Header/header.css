@@ -25,5 +25,12 @@
     padding: 2px;
     text-decoration: none;
 }
+#menuBTN{
+    width:70px;
+    height: 70px;
+}
+#countryBTN{
+    display: none;
+}
 
 

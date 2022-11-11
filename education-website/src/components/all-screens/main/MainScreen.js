@@ -1,5 +1,5 @@
 import React from "react";
-import NasaPage from "./NasaAPI";
+import NasaPage from "../NasaAPI";
 
 
 const MainScreen = () => (
