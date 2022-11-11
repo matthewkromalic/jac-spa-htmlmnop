@@ -1,0 +1,29 @@
+.header {
+    color: rgb(17, 16, 16);
+    display: flex;
+    justify-content:space-between;
+    margin: auto;
+    width: 75%;
+  font-family:cursive
+}
+
+.navLink {
+    display: flex;
+}
+
+.navLink a {
+ 
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 6px;
+    border-color:black;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 20px;
+    min-width: 75px;
+    padding: 2px;
+    text-decoration: none;
+}
+
+
