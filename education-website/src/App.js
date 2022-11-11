@@ -10,7 +10,9 @@ function App() {
     <div className="App">
      
       <BrowserRouter>
+
       <Header/>
+      
         <PageDirector/>
        
       </BrowserRouter>
