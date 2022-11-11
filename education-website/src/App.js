@@ -16,8 +16,10 @@ function App() {
        <BrowserRouter> 
 
       <Header/>
-      
+    <div className='page'>
         <PageDirector/>
+     </div>
+        <Footer/>
 
       </BrowserRouter>
     </div>
