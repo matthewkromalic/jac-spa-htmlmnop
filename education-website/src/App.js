@@ -8,6 +8,7 @@ import PageDirector from './components/router/router.js';
 import { BrowserRouter, Route } from 'react-router-dom';
 import MainScreen from './components/all-screens/main/MainScreen';
 import Fish from './components/all-screens/Countries/CountryAPI';
+import AboutOmar from './components/all-screens/Contact/AboutOmar';
 
 function App() {
   return (
