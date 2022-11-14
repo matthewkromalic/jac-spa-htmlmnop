@@ -1,6 +1,6 @@
 import { Route, Switch } from 'react-router-dom'
 import MainScreen from '../all-screens/main/MainScreen.js'
-import NasaPage from '../all-screens/NasaAPI.js'
+import NasaPage from '../all-screens/NASA/NasaAPI.js'
 import Countries from '../all-screens/Countries/CountryAPI.js'
 
 
