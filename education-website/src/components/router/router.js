@@ -2,7 +2,7 @@ import { Route, Switch } from 'react-router-dom'
 import MainScreen from '../all-screens/main/MainScreen.js'
 import NasaPage from '../all-screens/NASA/NasaAPI.js'
 import Countries from '../all-screens/Countries/CountryAPI.js'
-import AboutOmar from '../all-screens/Contact/AboutOmar.js'
+import AboutOmar from '../all-screens/Contact/AboutPage.js'
 
 
 
