@@ -7,7 +7,7 @@ import Footer from './components/Footer/Footer';
 import PageDirector from './components/router/router.js';
 import { BrowserRouter, Route } from 'react-router-dom';
 import MainScreen from './components/all-screens/main/MainScreen';
-import Fish from './components/all-screens/Countries/CountryAPI';
+import Fish from './components/all-screens/Countries/Country';
 
 function App() {
   return (
