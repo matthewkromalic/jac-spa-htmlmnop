@@ -19,8 +19,9 @@ useEffect(() => {
             <NavLink to = '/'>Home</NavLink>
             <NavLink to = '/contact'>Contact</NavLink>
             <NavLink to = '/us'>About Us</NavLink>
-            <button id = "menuBTN" type="button" img src ={menuBTN} onClick={() => handleClick()}/>
-         {showCountries && <NavLink id="countryBTN" to = '/countries'>Countries</NavLink>}
+            <input id = "menuBTN" type="image" src="./menu.png" onClick={() => handleClick()}/>
+         {showCountries && <NavLink id="countryBTN" to = '/country'>Countries</NavLink>}
+
          </ul>
     </div>)
 

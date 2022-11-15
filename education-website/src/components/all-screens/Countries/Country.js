@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import './country.css'
-import { NavLink } from "react-router-dom";
+import SingleCountry from "./SingleCountry";
 
 const Countries = () => {
     const [countries, setCountries] = useState(null);
@@ -18,20 +18,19 @@ const Countries = () => {
     return (
         <div>
             <div>
-                <NavLink to="/">Main Screen</NavLink>
-            </div>
-
-            <div>
                 <h5>Countries</h5>
                 {
                 (loading ? <h3>Loading...</h3> :
                 countries.map(country =>
-                <a href={`https://restcountries.com/v2/name/${country.name}`}><p>{country.name}</p></a>)
+                <a href={`/singlecountry/${country.name}`}><p>{country.name}</p></a>)
                 )
                 }
+                
             </div>
         </div>
 
     )
 }
 export default Countries;
+
+// `https://restcountries.com/v2/name/${country.name}`
