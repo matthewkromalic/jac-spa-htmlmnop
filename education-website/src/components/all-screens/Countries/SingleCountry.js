@@ -1,23 +1,42 @@
 import React, { useEffect, useState } from "react";
-import Countries from "./Country";
 import { useParams } from 'react-router-dom'
 
-const SingleCountry = (props) => {
+const SingleCountry = () => {
     const params = useParams();
     const [country, setCountry] = useState(null);
     const [loading, setLoading] = useState(true);
-  
+  // var loading = true;
     useEffect(() => {
-        
-        fetch(`https://restcountries.com/v2/name/${props.countryName}`)
-        .then((response) => response.json())
-        .then((json) => setCountry(json));
+      async function fetchData(){
+        const response = await fetch(`https://restcountries.com/v2/name/${params.countryName}`)
+        const data = await response.json()
+        setCountry(data)
+        setLoading(false)
+      }
+      fetchData();
+        // fetch(`https://restcountries.com/v2/name/${params.countryName}`)//.then((response) => console.log(response))
+        // .then((response) => response.json())
+        // .then((json) => setCountry(json))
+        // console.log(country)
+
     },[])
+        // if(country){
+        //   var loading = false
+        // }
     // fetch(`https://restcountries.com/v2/name/${params.country.name}`)
     // console.log(params)
-      console.log(props.countryName)
+      // console.log(props.countryName)
       return(
-        <h1>{props.countryName}</h1>
+        <div>
+          {
+          (loading ? <h3>Loading...</h3> :
+          (<div>
+            <h1>{country[0].name}</h1>
+            <p>Capital : {country[0].capital}</p>
+          </div>)
+          )
+          }
+        </div>
         )
 
 } 
