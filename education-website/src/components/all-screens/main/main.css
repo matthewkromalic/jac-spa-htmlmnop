@@ -18,3 +18,27 @@
     transition: .5s;
 }
 
+.mainScreen button {
+    height: 100px;
+    width: 120px;
+}
+
+.mainScreen p {
+    font-family: cursive;
+    color: white;
+}
+
+.mainScreen h1 {
+    font-family: cursive;
+    color: white;
+}
+
+.mainScreen{
+    background-color:rgb(45, 189, 189);
+    border-radius: 10px;
+    border-color: crimson;
+    border: 5px;
+
+}
+
+
