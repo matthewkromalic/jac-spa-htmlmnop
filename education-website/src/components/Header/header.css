@@ -35,5 +35,7 @@
     display: grid;
 }
 
-
+.navLink :hover{
+    color: rgb(187, 13, 65);
+}
 
