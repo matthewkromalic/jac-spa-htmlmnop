@@ -25,7 +25,8 @@
 
 .mainScreen p {
     font-family: cursive;
-    color: white;
+    font-weight: bolder;
+    background-image: linear-gradient(to right, pink, yellow);
 }
 
 .mainScreen h1 {
@@ -34,7 +35,7 @@
 }
 
 .mainScreen{
-    background-color:rgb(45, 189, 189);
+    background-image:linear-gradient(to right, pink,yellow);
     border-radius: 10px;
     border-color: crimson;
     border: 5px;
