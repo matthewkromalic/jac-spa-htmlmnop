@@ -30,7 +30,6 @@
 #menuBTN{
     width:70px;
     height: 70px;
-    background-image: url("../all-screens/images/menu.png");
 }
 #countryBTN{
     display: grid;
