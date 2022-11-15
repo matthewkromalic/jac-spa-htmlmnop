@@ -9,12 +9,17 @@ public class State {
     @GeneratedValue
     private long id;
 
-    public String name;
-    public String capital;
-    public int population;
+    private String name;
+    private String abv;
+    private String capital;
+    private int population;
 
 
-    public State(String name, String capital, int population){
+    public State(String name,String abv, String capital, int population){
+        this.name = name;
+        this.abv = abv;
+        this.capital = capital;
+        this.population = population;
 
     }
 
