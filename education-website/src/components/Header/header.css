@@ -49,4 +49,6 @@ background-image: linear-gradient(to right, pink,yellow);
   border-radius: 50%; 
 }
 
-
+.navLink :hover{
+    color: rgb(187, 13, 65);
+}

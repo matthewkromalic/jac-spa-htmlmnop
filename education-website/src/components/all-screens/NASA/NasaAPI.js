@@ -22,7 +22,7 @@ const NasaPage = () =>{
 
     return(
         <div>
-            <h3>Learn about NASA</h3>
+            <h3>LEARN ABOUT NASA</h3>
             {
                 (loading ? <h3>Loading...</h3>:
                 // console.log(images)
