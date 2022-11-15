@@ -1,15 +1,17 @@
+
 .header {
     color: rgb(17, 16, 16);
     display: flex;
     justify-content:space-between;
     margin: auto;
     width: 75%;
-  font-family:cursive
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .navLink {
     display: flex;
 }
+
 
 .navLink a {
  
@@ -28,9 +30,11 @@
 #menuBTN{
     width:70px;
     height: 70px;
+    background-image: url("../all-screens/images/menu.png");
 }
 #countryBTN{
-    display: none;
+    display: grid;
 }
+
 
 
