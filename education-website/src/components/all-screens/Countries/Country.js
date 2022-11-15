@@ -22,7 +22,7 @@ const Countries = () => {
                 {
                 (loading ? <h3>Loading...</h3> :
                 countries.map(country =>
-                <a href={`/singlecountry`}><p>{<SingleCountry countryName = {country.name}/>}</p></a>)
+                <a href={`/singlecountry/${country.name}`}><p>{country.name}</p></a>)
                 )
                 }
                 

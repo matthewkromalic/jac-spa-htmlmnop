@@ -11,11 +11,12 @@ const PageDirector = () => {
     return (
         <Switch>
             <Route exact path={'/'} component={MainScreen}/>
-            <Route exact path={'/countries'} component={Countries}/>
+            <Route exact path={'/country'} component={Countries}/>
             <Route exact path={'/nasa'} component={NasaPage}/>
             <Route exact path={'/us'} component={AboutOmar}/>
-            <Route exact path={'/singlecountry'} component={SingleCountry}/>
+            {/* <Route exact path={'/singlecountry'} component={SingleCountry}/> */}
             {/* <Route exact path={'/singlecountry'} component={(props) => <SingleCountry {...props}/>}/> */}
+            <Route exact path={'/singlecountry/:countryName'} component={SingleCountry}/>
         </Switch>
     )
 } 
