@@ -18,7 +18,7 @@ const States = () =>{
             <h3>States</h3>
             {loading ? <h3>Loading...</h3> :
             states.map(state => 
-            <p>{state.name}</p>)}
+            <a href={`/states/${state.name}`}><p>{state.name}</p></a>)}
         </div>
     )
 }

@@ -7,6 +7,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.Optional;
+
 @RestController
 public class StateController {
 
@@ -21,8 +23,17 @@ public class StateController {
         return stateRepo.findAll();
     }
 
-    @GetMapping("/states/{id}")
+    @GetMapping("/state/{id}")
     public State getStateById(@PathVariable long id){
         return stateRepo.findById(id).get();
+    }
+
+    @GetMapping("/states/{name}")
+    public State getStateByName(@PathVariable String name){
+        Optional<State> state = stateRepo.findByName(name);
+        if(state.isPresent()){
+            return state.get();
+        }
+        else return null;
     }
 }
