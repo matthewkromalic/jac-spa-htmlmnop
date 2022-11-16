@@ -7,3 +7,9 @@
     display: flex;
     justify-content: center;
 }
+
+.about a {
+    display: flex;
+    justify-content: center;
+    
+}
