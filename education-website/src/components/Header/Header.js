@@ -16,8 +16,8 @@ useEffect(() => {
         <h1>JAC Enterprises</h1>
          <ul className="navLink">
             <NavLink className="b1" to = '/'>Home</NavLink>
-            <NavLink className="b2" to = '/contact'>Contact</NavLink>
-            <NavLink className="b3" to = '/us'>About Us</NavLink>
+            <NavLink className="b1" to = '/contact'>Contact</NavLink>
+            <NavLink className="b1" to = '/us'>About Us</NavLink>
 
             <input id = "menuBTN" type="image" src={menuBTN} onClick={() => handleClick()}/>
          {showCountries && <div>
