@@ -1,4 +1,4 @@
-import userEvent from "@testing-library/user-event";
+
 import React, { useEffect, useState } from "react";
 import './Nasa.css'
 
@@ -22,7 +22,7 @@ const NasaPage = () =>{
 
     return(
         <div>
-            <h3>LEARN ABOUT NASA</h3>
+            <h2> LEARN ABOUT NASA </h2>
             {
                 (loading ? <h3>Loading...</h3>:
                 // console.log(images)

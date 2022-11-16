@@ -49,8 +49,8 @@ background-image: linear-gradient(to right, pink,yellow);
 }
 
 .navLink :hover{
-    color: rgb(0, 0, 0);
-    font-weight: 1000;
+    color: rgb(211, 27, 88);
+    box-shadow: 0 5px 15px;
 }
 .navLink a:hover{
   box-shadow: 1000px;
