@@ -67,16 +67,6 @@ background-image: linear-gradient(to right, pink,yellow);
   }
 }
 @media (prefers-reduced-motion: no-preference) {
-  .b2 {
-    animation: App-logo-spin 1 1s linear;
-  }
-}
-@media (prefers-reduced-motion: no-preference) {
-  .b3 {
-    animation: App-logo-flip 1 1s linear;
-  }
-}
-@media (prefers-reduced-motion: no-preference) {
   #menuBTN {
     animation: App-logo-spin 1 1s linear;
   }
