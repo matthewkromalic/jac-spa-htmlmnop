@@ -1,7 +1,0 @@
-GET https://restcountries.com/v2/all
-###
-GET http://localhost:8080/states
-###
-GET http://localhost:8080/state/43
-###
-GET http://localhost:8080/states/Ohio
