@@ -23,6 +23,7 @@ const AboutPage = () => {
              <img src={Prakash}></img>
              <p>Hello, This is Prakash Gajamer. Former Computer Repair Technician in multiple places. To add up more knowledge/skills, I got interested in software field which motivates me to enroll at We Can Code It(WCCI) to learn how to Code.</p>
 
+
         </div>
         )
 }
