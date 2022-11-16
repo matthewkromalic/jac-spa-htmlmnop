@@ -10,7 +10,6 @@ const handleClick = () => {
     setShowCountries(prevState => !prevState) 
 }
 useEffect(() => {
-    console.log(showCountries)
 }, [showCountries])
 
      return(<div className="header">
@@ -19,6 +18,7 @@ useEffect(() => {
             <NavLink to = '/'>Home</NavLink>
             <NavLink to = '/contact'>Contact</NavLink>
             <NavLink to = '/us'>About Us</NavLink>
+
             <input id = "menuBTN" type="image" src={menuBTN} onClick={() => handleClick()}/>
          {showCountries && <div>
          <NavLink id="stateBTN" to ="/states">States</NavLink> 
