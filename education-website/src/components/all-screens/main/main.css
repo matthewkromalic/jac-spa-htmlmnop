@@ -26,7 +26,8 @@
 .mainScreen p {
     font-family: cursive;
     font-weight: bolder;
-    background-image: linear-gradient(to right, pink, yellow);
+    background-image: linear-gradient(to right, pink, rgb(126, 104, 228));
+    border-radius: 50px;
 }
 
 .mainScreen h1 {
@@ -35,11 +36,12 @@
 }
 
 .mainScreen{
-    background-image:linear-gradient(to right, pink,yellow);
+    background-image:linear-gradient(to right, pink,rgb(126, 104, 228));
     border-radius: 10px;
     border-color: crimson;
     border: 5px;
 
 }
 
+ 
 

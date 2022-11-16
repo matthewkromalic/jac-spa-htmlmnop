@@ -2,9 +2,8 @@
 .header {
     color: rgb(17, 16, 16);
     border: 10px;
-    border-radius: 10px;
     border-color: black;
-    background-image: linear-gradient(to right, pink,yellow);
+    background-image: linear-gradient(to right, pink,rgb(126, 104, 228));
     display: flex;
     justify-content:space-evenly;
     margin: auto;
@@ -50,5 +49,9 @@ background-image: linear-gradient(to right, pink,yellow);
 }
 
 .navLink :hover{
-    color: rgb(187, 13, 65);
+    color: rgb(0, 0, 0);
+    font-weight: 1000;
+}
+.navLink a:hover{
+  box-shadow: 1000px;
 }
