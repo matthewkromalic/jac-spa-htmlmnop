@@ -1,6 +1,9 @@
 
 import React, { useEffect, useState } from "react";
 import './Nasa.css'
+import nasa from "../NASA/nasa logo.png"
+import apollo from "../NASA/Apollo11.png"
+import rocket from "../NASA/rocket.png"
 
 
 const NasaPage = () =>{
@@ -22,7 +25,20 @@ const NasaPage = () =>{
 
     return(
         <div>
-            <h2> LEARN ABOUT NASA </h2>
+            
+            <h1> LEARN ABOUT NASA </h1>
+            <section class="nasa1">
+            <img src={nasa}></img>
+            </section>
+
+            <section class="nasa2">
+            <img src={apollo}></img>
+            </section>
+
+            <section class="nasa3">
+            <img src={rocket}></img>
+            </section>
+
             {
                 (loading ? <h3>Loading...</h3>:
                 // console.log(images)

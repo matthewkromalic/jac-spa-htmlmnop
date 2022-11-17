@@ -6,7 +6,7 @@ import AboutPage from '../all-screens/AboutUs/AboutPage.js'
 import SingleCountry from '../all-screens/Countries/SingleCountry.js'
 import States from '../all-screens/States/State.js'
 import SingleState from '../all-screens/States/SingleState.js'
-
+import ContactPage from '../all-screens/Contact/ContactPage.js'
 
 
 const PageDirector = () => {
@@ -21,6 +21,7 @@ const PageDirector = () => {
             {/* <Route exact path={'/singlecountry'} component={(props) => <SingleCountry {...props}/>}/> */}
             <Route exact path={'/states/:stateName'} component={SingleState}/>
             <Route exact path={'/singlecountry/:countryName'} component={SingleCountry}/>
+            <Route exact path={'/contact'} component={ContactPage}/>
         </Switch>
     )
 } 
