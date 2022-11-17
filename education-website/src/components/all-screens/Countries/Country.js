@@ -2,7 +2,9 @@ import React, { useEffect, useState } from "react";
 import './country.css'
 import SingleCountry from "./SingleCountry";
 import { NavLink } from "react-router-dom";
-
+function reload(){
+    window.location.reload();
+}
 const Countries = () => {
     const [countries, setCountries] = useState([]);
     const [loading, setLoading] = useState(true);
@@ -16,6 +18,7 @@ const Countries = () => {
             setLoading(false);
         }
     })
+
     return (
     <div>
         <h1 id="countriesTitle">Countries</h1>
@@ -44,7 +47,11 @@ const Countries = () => {
                 <img className="imgflag" src={country.flags.png}/>
                 ))}
                 </div>
-        </div> 
+        </div>
+        <div className="centerBTN">
+            <NavLink id="top" className="topBTN" to="/">Home</NavLink>
+            <NavLink id="home" className="topBTN" onClick = {reload} to="/country">Back to top</NavLink>
+        </div>
     </div>
     )
 }
