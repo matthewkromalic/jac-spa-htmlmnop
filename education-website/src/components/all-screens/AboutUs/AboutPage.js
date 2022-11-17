@@ -28,13 +28,17 @@ const AboutPage = () => {
              
              <h3>Prakash Gajamer</h3> 
              <img src={Prakash}></img>
-             <p>Hello, This is Prakash Gajamer. Former Computer Repair Technician in multiple places. To add up more knowledge/skills, I got interested in software field which motivates me to enroll at We Can Code It(WCCI) to learn how to Code.</p>
+
+             <p>Hello, This is Prakash Gajamer. Former Computer Repair Technician in multiple places. To add up more knowledge/skills, I got interested in software field which motivates me to enroll at We Can Code It(WCCI) to learn how to Code. I love music and making new friends.</p>
+             <a id="Linkedin" href="http://www.linkedin.com/in/prakashgajamer7">LinkedIn</a>
+             <a id="Github" href="https://github.com/PrakashGajamer">Github</a>   
         
             <h3>Matthew Kromalic</h3>
              <img src={Matthew}></img>
              <p>Hello, My name is Matthew Kromalic and I am currently enrolled in the WeCanCodeIT fullstack bootcamp. Before the bootcamp, I was freshly graduated out of highschool and looking for a great opportunitiy in something I enjoy, so I landed in the Tech field. I'm looking forward to start my carrer and find what great opportunities might emerge.</p>
              <a className="Linkedin" href="https://www.linkedin.com/in/matthew-kromalic/">Linkedin</a>
              <a className="Github" href="https://github.com/matthewkromalic">Github</a>
+
         </div>
         )
 }
