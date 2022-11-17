@@ -5,6 +5,7 @@ import "./about.css"
 import Matthew from "../images/matthew.jpg"
 
 import Prakash from "../images/Pk.JPEG"
+import Sam from "../images/Sam.jpg"
 
 const AboutPage = () => {
     
@@ -39,7 +40,16 @@ const AboutPage = () => {
              <a className="Linkedin" href="https://www.linkedin.com/in/matthew-kromalic/">Linkedin</a>
              <a className="Github" href="https://github.com/matthewkromalic">Github</a>
 
+
+            <h3>Sam Larsen</h3>
+            <img src={Sam}></img>
+            <p>Hiya! My name is Sam Larsen, I am a full-stack java Developer who is learned in extensive Java, HTML, CSS and JavaScript. I became interested in software development by creating mods for video games and eventually decided I wanted to coding to become my profession. So i went to 'We Can Code It' so I could have something more professional to put on my resume as well as a more formal education in Software development.</p> 
+            <a className="Linkedin" href="https://www.linkedin.com/in/sam-larsen-83499a170/">LinkedIn</a>
+            <a className="Github" href="https://github.com/LarsenSam">Github</a>
+
         </div>
+
+
         )
 }
 
