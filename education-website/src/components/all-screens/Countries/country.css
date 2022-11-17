@@ -94,3 +94,33 @@
 .weight{
     font-weight: 600;
 }
+.topBTN{
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    border-color:black;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    height: 30px;
+    margin-top: 10px;
+    min-width: 75px;
+    padding: 2px;
+    text-decoration: none;
+    background-color: lightgray;   
+    color: black;  
+    box-shadow: 0 0 10px;
+    font-weight: 500;
+    width: 100px;
+}
+.centerBTN{
+    display: flex;
+    justify-content: space-around;
+}
+#top{
+    margin-right: -580px;
+}
+.centerBTN a:hover{
+    background-color: lightblue;
+    transition: .5s;
+}

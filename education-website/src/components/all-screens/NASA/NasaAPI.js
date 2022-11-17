@@ -4,8 +4,11 @@ import './Nasa.css'
 import nasa from "../NASA/nasa logo.png"
 import apollo from "../NASA/Apollo11.png"
 import rocket from "../NASA/rocket.png"
+import { NavLink } from "react-router-dom"
 
-
+function reload(){
+    window.location.reload();
+}
 const NasaPage = () =>{
     
 
@@ -53,6 +56,10 @@ const NasaPage = () =>{
                 )
 
             }
+        <div className="centerBTN">
+            <NavLink id="top" className="topBTN" to="/">Home</NavLink>
+            <NavLink id="home" className="topBTN" onClick = {reload} to="/nasa">Back to top</NavLink>
+        </div>
         </div>
 
     )
