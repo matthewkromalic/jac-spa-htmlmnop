@@ -24,12 +24,15 @@ const AboutPage = () => {
             <h3>Aidan Eisele</h3>
              <img src={Aidan}></img>
              <p>I'm a former barber looking to make a jump into the IT field through a full stack Java bootcamp at We Can Code It. I hope to start my career in an enviornment that allows me to work with people and potentially move into a postion like recruiting or client/company relationships.</p>
-             <a id="Linkedin" href="https://www.linkedin.com/in/aidan-eisele-5301a619b/">LinkedIn</a>
+             <a id="Linkedin" href="https://www.linkedin.com/in/aidan-eisele-5301a619b/">Linkedin</a>
              <a id="Github" href="https://github.com/eiseleaidan">Github</a>
              
              <h3>Prakash Gajamer</h3> 
              <img src={Prakash}></img>
-             <p>Hello, This is Prakash Gajamer. Former Computer Repair Technician in multiple places. To add up more knowledge/skills, I got interested in software field which motivates me to enroll at We Can Code It(WCCI) to learn how to Code.</p>
+
+             <p>Hello, This is Prakash Gajamer. Former Computer Repair Technician in multiple places. To add up more knowledge/skills, I got interested in software field which motivates me to enroll at We Can Code It(WCCI) to learn how to Code. I love music and making new friends.</p>
+             <a id="Linkedin" href="http://www.linkedin.com/in/prakashgajamer7">LinkedIn</a>
+             <a id="Github" href="https://github.com/PrakashGajamer">Github</a>   
         
             <h3>Matthew Kromalic</h3>
              <img src={Matthew}></img>
@@ -43,6 +46,7 @@ const AboutPage = () => {
             <p>Hiya! My name is Sam Larsen, I am a full-stack java Developer who is learned in extensive Java, HTML, CSS and JavaScript. I became interested in software development by creating mods for video games and eventually decided I wanted to coding to become my profession. So i went to 'We Can Code It' so I could have something more professional to put on my resume as well as a more formal education in Software development.</p> 
             <a className="Linkedin" href="https://www.linkedin.com/in/sam-larsen-83499a170/">LinkedIn</a>
             <a className="Github" href="https://github.com/LarsenSam">Github</a>
+
         </div>
 
 
