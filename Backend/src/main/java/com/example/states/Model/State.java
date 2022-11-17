@@ -1,6 +1,7 @@
 package com.example.states.Model;
 
 import javax.persistence.*;
+import java.util.Collection;
 
 @Entity
 public class State {
@@ -8,6 +9,9 @@ public class State {
     @Id
     @GeneratedValue
     private long id;
+
+    @OneToMany(mappedBy = "state")
+    private Collection<FunFact> funFacts;
 
     private String name;
     private String abv;
@@ -57,5 +61,14 @@ public class State {
 
     public int getYearEst() {
         return yearEst;
+    }
+
+    public Collection<FunFact> getFunFacts(){
+        return funFacts;
+    }
+
+    public void addFact(FunFact fact){
+        fact.setState(this);
+
     }
 }

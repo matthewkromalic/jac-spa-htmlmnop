@@ -1,11 +1,11 @@
 package com.example.states.Controller;
 
 
+import com.example.states.Model.FunFact;
 import com.example.states.Model.State;
+import com.example.states.Repository.FactRepository;
 import com.example.states.Repository.StateRepository;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.Optional;
 
@@ -13,9 +13,11 @@ import java.util.Optional;
 public class StateController {
 
     public StateRepository stateRepo;
+    public FactRepository factRepo;
 
-    public StateController (StateRepository stateRepo){
+    public StateController (StateRepository stateRepo, FactRepository factRepo){
         this.stateRepo = stateRepo;
+        this.factRepo = factRepo;
     }
 
     @GetMapping("/states")
@@ -34,6 +36,19 @@ public class StateController {
         if(state.isPresent()){
             return state.get();
         }
-        else return null;
+        return null;
     }
+    @PostMapping("/state/{name}/addFact")
+    public State addFunFact(@PathVariable String name, @RequestBody FunFact fact){
+        Optional<State> state = stateRepo.findByName(name);
+        if(state.isPresent()) {
+            State newState = state.get();
+            factRepo.save(fact);
+            newState.addFact(fact);
+            stateRepo.save(newState);
+            return newState;
+        }
+        return null;
+    }
+
 }
