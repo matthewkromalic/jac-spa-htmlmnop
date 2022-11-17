@@ -1,4 +1,9 @@
 import React from "react";
+import img from "../images/redsea-1-1024x768.jpg"
+import cav from "../images/cavern.jpg"
+import fiji from "../images/fiji-islands.jpg"
+import trek from "../images/trek-to-k2-2.jpg"
+import toucan from "../images/toucan-barbet.jpg"
 
 
 
@@ -32,60 +37,60 @@ import React from "react";
                 </section>
 
                 <section id="section-b" class="grid">
-                    <ul>
-                        <li>
+                    
+                        
                             <div class="card">
-                                <img src="./assets/images/redsea-1-1024x768.jpg" alt=""/>
+                                <img src={img}/>
                                 <div class="card-content">
-                                    <h3 class="card-title">EYA!&#8482</h3>
+                                    <h3 class="card-title">EYA!</h3>
                                     <p>Own an aquarium?  Enjoy visiting major aquariums? Love to visit the tropical fish store?  Is the answer...YES!  Come experience those questions...LIVE AND IN LIVING COLOR!</p>
                                 </div>
                             </div>
-                        </li>
-                        <li>
+                        
+                        
                             <div class="card">
-                                <img src="./assets/images/cavern.jpg" alt="" srcset=""/>
+                                <img src={cav}/>
                                 <div class="card-content">
-                                    <h3 class="card-title">Spelunking!&#8482</h3>
+                                    <h3 class="card-title">Spelunking!</h3>
                                     <p>Sure.  The tourist caves are beautiful, fun, and unique to visit.  But why do the tourist thing when you can tame the wilds and mark new paths for future tourists to follow.</p>
                                 </div>
                             </div>
-                        </li>
-                        <li>
+                        
+                        
                             <div class="card">
-                                <img src="./assets/images/fiji-islands.jpg" alt="" srcset=""/>
+                                <img src={fiji}/>
                                 <div class="card-content">
-                                    <h3 class="card-title">Skip 2 My Cay!&#8482</h3>
+                                    <h3 class="card-title">Skip 2 My Cay!</h3>
                                     <p>What's the fun in just exploring that single island you flew into?!  Why not explore a subset of that island's chain? so just take the opportunity to...Skip to My Cay!&#8482</p>
                                 </div>
                             </div>
-                        </li>
-                        <li>
+                        
+                        
                             <div class="card">
-                                <img src="./assets/images/trek-to-k2-2.jpg" alt="" srcset=""/>
+                                <img src={trek}/>
                                 <div class="card-content">
-                                    <h3 class="card-title">JT,B!&#8482</h3>
-                                    <p>"Just Trek Baby!&#8482" is what we say here at Jac.  Come test your fortitude with treks that make you forget that the word civilization even exists. </p>
+                                    <h3 class="card-title">JT,B!</h3>
+                                    <p>"Just Trek Baby!" is what we say here at Jac.  Come test your fortitude with treks that make you forget that the word civilization even exists. </p>
                                 </div>
                             </div>
-                        </li>
-                        <li>
+                        
+                        
                             <div class="card">
-                                <img src="./assets/images/toucan-barbet.jpg" alt="" srcset=""/>
+                                <img src={toucan}/>
                                 <div class="card-content">
-                                    <h3 class="card-title">Twitchers!&#8482</h3>
+                                    <h3 class="card-title">Twitchers!</h3>
                                     <p>“There are approximately ten thousand species of birds on the planet and no single individual has seen them all. -Bernd Brunner”...Accept the challenge!</p>
                                 </div>
                             </div>
-                        </li>
-                    </ul>
+                        
+                    
                 </section>
 
                 
                 <section id="section-c" class="grid">
                     <div class="content-wrap">
                         <h2 class="content-title">Jac will handle all your cravings for adventure</h2>
-                        <p>EYA!&#8482, Spelunking!&#8482, Skip 2 My Cay!&#8482, JT,B!&#8482, and Twitchers!&#8482 are just a sampling of the various exhilarating and thrilling eco-friendly global outdoor adventure.</p>
+                        <p>EYA!, Spelunking!, Skip 2 My Cay!, JT,B!, and Twitchers! are just a sampling of the various exhilarating and thrilling eco-friendly global outdoor adventure.</p>
                     </div>
                 </section>
 
