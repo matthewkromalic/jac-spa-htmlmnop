@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { NavLink, useParams } from "react-router-dom";
 
 const SingleState = () => {
     const params = useParams();
@@ -17,16 +17,28 @@ const SingleState = () => {
     })
 
     return(
-        <div>
+        <div class="statePage">
             {(loading ?<h3>Loading...</h3>:
             (<div>
-                <h1>{state.name}</h1>
-                <h3>Capital: {state.capital}</h3>
+                <h1>{state.name+" ("+state.abv+")"}</h1>
                 <h3>Population: {state.population.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</h3>
+                <h3>Capital: {state.capital}</h3>
+                <h3>Established in {state.yearEst}</h3>
+                <h3>{state.name} has {state.electoralVotes} electoral votes</h3>
+
+
 
             </div>)
+
+
     )
+    // (document.title = state.name)
+
 }
+
+    <div>
+        <NavLink to = "/states">Back</NavLink>
+    </div>
 </div>
 
 )
