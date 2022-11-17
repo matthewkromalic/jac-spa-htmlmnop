@@ -15,6 +15,7 @@ const SingleCountry = () => {
       fetchData();
     },[])
 
+
       return(
         <div>
           {
@@ -31,7 +32,7 @@ const SingleCountry = () => {
           )
           }
           <div className="buttonMove">
-            <NavLink to = "/country"><p className="backBTN">Back</p></NavLink>
+          <NavLink to = "/country"><p className="backBTN">Back</p></NavLink>
           </div>
         </div>
         )

@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
 import './country.css'
 import SingleCountry from "./SingleCountry";
+import { NavLink } from "react-router-dom";
 
 const Countries = () => {
-    const [countries, setCountries] = useState(null);
+    const [countries, setCountries] = useState([]);
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
@@ -19,6 +20,7 @@ const Countries = () => {
     <div>
         <h1 id="countriesTitle">Countries</h1>
             <div className="full">
+            
                 <div className="grid1" >
                 {
                 (loading ? <h3>Loading...</h3> :

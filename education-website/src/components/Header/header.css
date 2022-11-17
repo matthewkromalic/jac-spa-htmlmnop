@@ -13,6 +13,7 @@
 
 .navLink {
     display: flex;
+    color: black;
 }
 
 
@@ -49,9 +50,24 @@ background-image: linear-gradient(to right, pink,yellow);
 }
 
 .navLink :hover{
-    color: rgb(211, 27, 88);
-    box-shadow: 0 5px 15px;
+  font-weight: 1000;
+  color: black;
 }
 .navLink a:hover{
   box-shadow: 1000px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .header h1 {
+    animation: App-logo-spin 1 1s linear;
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .b1 {
+    animation: App-logo-spin 1 1s linear;
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  #menuBTN {
+    animation: App-logo-spin 1 1s linear;
+  }
 }

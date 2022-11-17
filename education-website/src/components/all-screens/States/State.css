@@ -1,0 +1,17 @@
+
+
+.page{
+
+}
+
+
+.statePage{
+    background-image: linear-gradient(to right, blue,red);
+    color: white;
+    height: auto;
+}
+
+
+.statePage a{
+    color: white;
+}
