@@ -1,0 +1,126 @@
+ .full{
+    background-color: #ddd;
+    height: auto;
+    margin: 2rem auto;
+    max-width: 1000px;
+    padding: 20px;
+}
+.imgflag{
+    display: flex;
+    width: 100px;
+    grid-column: 1;
+} 
+.full{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.grid1{
+    display: grid;
+    justify-content: left;
+}
+.grid2{
+    display: grid;
+}
+.grid3{
+    display: grid;
+    justify-content: right;
+}
+.SCBTN{
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    border-color:black;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    height: 30px;
+    margin-top: 10px;
+    min-width: 75px;
+    padding: 2px;
+    text-decoration: none;
+    background-color: lightcyan;   
+    color: black;  
+    box-shadow: 0 0 10px;
+    font-weight: 500;
+}
+.page{
+    border-radius: 50px;
+    background-color: lightsteelblue;
+    box-shadow: 0 0 10px;
+}
+.full{
+    background-color: lightsteelblue;
+}
+.App{
+    background-color: rgb(199, 226, 250);
+}
+.grid2 a:hover{
+    background-color: rgb(155, 216, 236);
+    transition: .5s;
+}
+.backBTN{
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    border-color:black;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    height: 30px;
+    margin-top: 10px;
+    min-width: 75px;
+    width: 10rem;
+    padding: 2px;
+    text-decoration: none;
+    background-color: lightcyan;   
+    color: black;  
+    font-weight: 500;
+}
+.buttonMove{
+    display: flex;
+    justify-content: center;
+}
+.flagpic{
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    border-color:black;
+    list-style-type: none;
+    min-width: 75px;
+    padding: 2px;
+    color: black;  
+    box-shadow: 0 0 10px;
+}
+.weight{
+    font-weight: 600;
+}
+.topBTN{
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    border-color:black;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    height: 30px;
+    margin-top: 10px;
+    min-width: 75px;
+    padding: 2px;
+    text-decoration: none;
+    background-color: lightgray;   
+    color: black;  
+    box-shadow: 0 0 10px;
+    font-weight: 500;
+    width: 100px;
+}
+.centerBTN{
+    display: flex;
+    justify-content: space-around;
+}
+#top{
+    margin-right: -580px;
+}
+.centerBTN a:hover{
+    background-color: lightblue;
+    transition: .5s;
+}

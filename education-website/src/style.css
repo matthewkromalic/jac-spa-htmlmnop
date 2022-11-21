@@ -1,0 +1,7 @@
+.page {
+background-color: #ddd;
+    height: 600px;
+    margin: 2rem auto;
+    max-width: 1000px;
+    padding: 20px;
+}

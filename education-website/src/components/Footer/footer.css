@@ -1,0 +1,12 @@
+.footer {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(to right,pink,rgb(126, 104, 228));
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}

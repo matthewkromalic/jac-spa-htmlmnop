@@ -1,0 +1,29 @@
+img{
+    width: 800px;
+}
+
+.page{
+    height: auto;
+}
+.nasa1{
+    display: flex;
+    width: 100px;
+    padding-left: 140px;
+    margin-top: -4%;
+}
+
+.nasa2{
+    display: flex;
+    width: 1px;
+    padding-left: 690px;
+    margin-top: -13%;
+    height: 131px;
+}
+
+.nasa3{
+    display: flex;
+    width: 1px;
+    padding-left: 325px;
+    margin-top: -10%;
+    height: 115px;
+}

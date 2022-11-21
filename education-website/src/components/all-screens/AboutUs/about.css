@@ -1,0 +1,15 @@
+.about img {
+    height: 20rem;
+    width: auto;
+    border-radius: 4px;
+}
+.about h3{
+    display: flex;
+    justify-content: center;
+}
+
+.about a {
+    display: flex;
+    justify-content: center;
+    
+}

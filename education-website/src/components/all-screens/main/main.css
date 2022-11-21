@@ -1,0 +1,47 @@
+
+.links{
+    display: flex;
+}
+.links a{
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 20px;
+    min-width: 75px;
+    padding: 2px;
+}
+.links a:hover{
+    background-color: aquamarine;
+    transition: .5s;
+}
+
+.mainScreen button {
+    height: 100px;
+    width: 120px;
+}
+
+.mainScreen p {
+    font-family: cursive;
+    font-weight: bolder;
+    background-image: linear-gradient(to right, pink, rgb(126, 104, 228));
+    border-radius: 50px;
+}
+
+.mainScreen h1 {
+    font-family: cursive;
+    color: white;
+}
+
+.mainScreen{
+    background-image:linear-gradient(to right, pink,rgb(126, 104, 228));
+    border-radius: 10px;
+    border-color: crimson;
+    border: 5px;
+
+}
+
+ 
+

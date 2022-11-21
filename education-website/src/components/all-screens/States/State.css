@@ -1,0 +1,25 @@
+
+
+.page{
+
+}
+
+
+.statePage{
+    border-radius: 24px;
+    padding: 5%;
+
+    background-image: linear-gradient(to right, blue,red);
+    color: white;
+    height: auto;
+}
+
+
+.statePage a{
+    color: white;
+}
+
+.funFactInput{
+    width: 40%;
+
+}
